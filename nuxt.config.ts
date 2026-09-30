@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   components: [{ path: '~/components', pathPrefix: false }],
   css: ['~/assets/css/main.css'],
-  modules: ['@nuxt/fonts'],
+  modules: ['@nuxt/fonts', '@nuxt/eslint'],
   fonts: {
     families: [
       {
