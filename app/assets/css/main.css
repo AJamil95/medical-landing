@@ -1,0 +1,37 @@
+:root {
+  /* Brand */
+  --color-primary: #8dde8b;
+  --color-primary-dark: #4ebc4b;
+
+  --color-white: #ffffff;
+  --color-background: #f8f8f8;
+
+  --color-text: #3a3f5c;
+
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 28px;
+
+  --shadow-card: 0 10px 30px rgba(40, 50, 70, 0.08);
+
+  --container-width: 1180px;
+  --section-padding: 100px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Outfit", sans-serif;
+  background: var(--color-white);
+  color: var(--color-text);
+  min-width: 320px;
+}
