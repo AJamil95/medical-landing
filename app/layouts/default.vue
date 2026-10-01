@@ -10,6 +10,8 @@
 
 <style scoped>
 .main{
-    padding-top: 64px;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
 }
 </style>

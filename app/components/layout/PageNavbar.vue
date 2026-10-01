@@ -101,7 +101,7 @@
   height: 36px;
   padding-inline: 16px;
 
-  color: var(--color-primary);
+  color: var(--color-text);
 
   text-decoration: none;
   font-size: 1rem;
