@@ -19,6 +19,15 @@
                 />
             </svg>
         </div>
+        <WhenToConsultSection></WhenToConsultSection>
+        <div class="wave-divider wave-divider-three" aria-hidden="true">
+            <svg viewBox="0 0 1440 100" preserveAspectRatio="none">
+                <path
+                    d="M0,70 C240,-20 480,-20 720,50 C960,120 1200,120 1440,30 L1440,0 L0,0 Z"
+                    fill="#f8f9f8"
+                />
+            </svg>
+        </div>
     </div>
 </template>
 
@@ -33,6 +42,10 @@
 
 .wave-divider-two{
     background: #f8f9f8;
+}
+
+.wave-divider-three{
+    background: var(--color-primary-dark);
 }
 
 .wave-divider svg {
