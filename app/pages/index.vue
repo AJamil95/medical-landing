@@ -1,7 +1,7 @@
 <template>
     <div>
         <HeroSection></HeroSection>
-        <div class="wave-divider" aria-hidden="true">
+        <div class="wave-divider wave-divider-one" aria-hidden="true">
             <svg viewBox="0 0 1440 100" preserveAspectRatio="none">
                 <path
                     d="M0,70 C240,-20 480,-20 720,50 C960,120 1200,120 1440,30 L1440,0 L0,0 Z"
@@ -10,13 +10,29 @@
             </svg>
         </div>
         <AboutSection></AboutSection>
+        <ServicesSection></ServicesSection>
+        <div class="wave-divider wave-divider-two" aria-hidden="true">
+            <svg viewBox="0 0 1440 100" preserveAspectRatio="none">
+                <path
+                    d="M0,70 C240,-20 480,-20 720,50 C960,120 1200,120 1440,30 L1440,0 L0,0 Z"
+                    fill="#fff"
+                />
+            </svg>
+        </div>
     </div>
 </template>
 
 <style scoped>
 .wave-divider {
   line-height: 0;
-  background: #fff;
+}
+
+.wave-divider-one{
+    background: #fff;
+}
+
+.wave-divider-two{
+    background: #f8f9f8;
 }
 
 .wave-divider svg {

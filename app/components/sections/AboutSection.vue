@@ -1,5 +1,5 @@
 <template>
-    <section id="sobre-mi" class="about">
+    <section id="about" class="about">
         <div class="about-inner">
              <div class="about-visual">
                 <svg class="about-hex about-hex-top" viewBox="0 0 100 115" xmlns="http://www.w3.org/2000/svg">
