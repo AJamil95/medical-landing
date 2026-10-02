@@ -9,6 +9,7 @@
                 />
             </svg>
         </div>
+        <AboutSection></AboutSection>
     </div>
 </template>
 

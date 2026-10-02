@@ -1,6 +1,15 @@
 <template>
     <section class="hero" id="home">
         <div class="hero-inner">
+            <svg class="about-hex about-hex-top" viewBox="0 0 100 115" xmlns="http://www.w3.org/2000/svg">
+                     <polygon
+                        points="50 2.5, 97.5 29.5, 97.5 85.5, 50 112.5, 2.5 85.5, 2.5 29.5"
+                        fill="none"
+                        stroke="rgba(45, 147, 42, 0.95)"
+                        stroke-width="5"
+                        stroke-linejoin="round"
+                    />
+                </svg>
             <div class="hero-copy">
                 <p class="eyebrow">Médico Cirujano</p>
                 <h1>Dr. Harol Ángel <em>Almaraz Peñafiel</em></h1>
@@ -9,10 +18,6 @@
                     <a class="button button-primary" href="#especialidades">Servicios<span aria-hidden="true">→</span></a>
                     <a class="button button-quiet" href="#contacto">Contáctame</a>
                 </div>
-                <!-- <div class="hero-proof">
-                    <span><strong>2+</strong> años de experiencia</span>
-                    <span><strong>95%</strong> de satisfacción</span>
-                </div> -->
             </div>
             <div class="hero-visual" aria-label="Equipo médico profesional">
                 <svg class="hero-waves" viewBox="0 0 600 480" preserveAspectRatio="none" aria-hidden="true">
@@ -212,6 +217,19 @@ em {
     padding: 112px 0;
 }
 
+.about-hex {
+    position: absolute;
+    z-index: 1005;
+}
+
+.about-hex-top {
+    top: 80px;
+    left: -250px;
+    width: 300px;
+    height: 300px;
+    transform: rotate(-12deg);
+}
+
 @media (max-width: 768px) {
     .hero {
         padding: 80px 24px 32px;
@@ -243,5 +261,6 @@ em {
         min-height: 280px;
     }
 }
+
 
 </style>
